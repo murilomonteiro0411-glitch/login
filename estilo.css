@@ -1,0 +1,149 @@
+body{
+    background:url(imagens/Gemini_Generated_Image_98oj8698oj8698oj.png) no-repeat ;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    min-height: 100vh;
+    background-position: cover;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.tudo{
+    background:transparent;
+    border-radius: 10px;
+    padding: 30px 25px;
+    border: 2px solid rgba(255, 255,255,.2);
+    width: 300px;
+    backdrop-filter:blur();
+    font-family: "Poppins",sans-serif;
+
+
+}
+.login h1{
+    font-size: 36px;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+.usuario input{
+    border-radius: 40px;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
+    color: black;
+   font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 14px;    
+    letter-spacing: 0.5px;
+}
+
+.senha input{
+    margin-top: 10px;
+    border-radius: 40px;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
+    color: black;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+     font-weight: 500px;
+    
+    
+    box-sizing: border-box;
+}
+.lembra a{
+    color: white;
+    text-decoration: none;
+    
+}
+.lembra a:hover{
+    text-decoration: underline;
+}
+.registrar a{
+    text-decoration: none;
+    color: black;
+}
+.registrar a:hover{
+    text-decoration: underline;
+}
+
+.bnt{
+   width: 100%;
+   height: 40px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   outline: none;
+   box-shadow: 0 0 10px rgba(0,0,0,.1);
+   font-size: 16px;
+   color: #333;
+   font-weight: 600;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+.registrar p{
+    text-align: left;
+    color: white;
+    margin-right: auto;
+}
+.registrar a{
+    text-align: right;
+    color: white;
+    margin-right: auto;
+    font-weight: 600;
+}
+.lembra{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bnt:hover{
+    background: black;
+    transition: 1s;
+    transform: scale(1.0);
+    color: white;
+}
+.lembra label{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lembra a{
+    font-size: 14px;
+    margin-left: auto;
+}
+.senha input:focus{
+    border: 2px solid white;
+    background: rgba(255,255,255,0.1);
+}  
+.usuario input:focus{
+    border: 2px solid white;
+    background: rgba(255,255,255,0.1);
+}
+::placeholder{
+    color: black;
+
+}
